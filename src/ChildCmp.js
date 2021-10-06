@@ -8,6 +8,7 @@ export default function ChildCmp(prop) {
     }
     return (
         <div>
+            <h1 style={{ marginLeft: "40%" }}>Solution in React js</h1>
             <select style={{ marginLeft: "45%" }} onChange={selectHandler}>
                 <option selected disabled>-----select------</option>
                 {prop.val.map((para) => {
