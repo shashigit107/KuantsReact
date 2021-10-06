@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import ChildCmp from './ChildCmp';
 import Clients from './Data'
 export default function Comp() {
